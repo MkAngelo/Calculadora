@@ -61,7 +61,7 @@ BotonSuma = Button(ventana,text="+",bg=color_boton,width=ancho_boton,height=alto
 BotonExp = Button(ventana,text="Exp",bg=color_boton,width=ancho_boton,height=alto_boton,command=lambda:click("**")).grid(row=5,column=0,pady=10)
 Boton0 = Button(ventana,text="0",bg=color_boton,width=ancho_boton,height=alto_boton,command=lambda:click(0)).grid(row=5,column=1,pady=10)
 BotonPunto = Button(ventana,text=".",bg=color_boton,width=ancho_boton,height=alto_boton,command=lambda:click(".")).grid(row=5,column=2,pady=10)
-BotonResultado = Button(ventana,text="=",bg=color_boton,width=ancho_boton,height=alto_boton,command=resultado).grid(row=5,column=3,pady=10)
+BotonResultado = Button(ventana,text="=",bg="orange",width=ancho_boton,height=alto_boton,command=resultado).grid(row=5,column=3,pady=10)
 
 Pantalla = Entry(ventana,font=("arial",20,"bold"),width=22,borderwidth=10,background="CadetBlue1",textvariable=texto_pantalla)
 Pantalla.grid(row=0,column=0,columnspan=4,padx=20,pady=20)
